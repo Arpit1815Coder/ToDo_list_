@@ -1,0 +1,128 @@
+.todo-container {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #cad2dc9d;
+    border-radius: 20px;
+    box-shadow: 1px 1px 12px rgba(0, 0, 0, 0.66);
+   
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 60px;
+    padding: 0 20px;
+}
+
+h1{
+    font-size: 2.5rem;
+    font-family: fantasy;
+    font-weight: 100;
+    color: #44666bfd;
+}
+
+.control-container {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(0, 0, 0, 0.37);border-radius: 5px;
+  
+
+}
+
+.filter-container, .sort-container {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+   
+}
+
+.filter-container select, .sort-container select {
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  
+}
+
+.input-container input {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 1rem;
+    border: none;
+    width: 300px;
+}
+
+.input-container .add-button {
+    background-color:  #cad2dc;;
+    color: green;
+    border: none;
+    font-size: 20px;
+    
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.input-container .add-button:hover {
+    background-color: #18241b69;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    color: rgba(0, 0, 0, 0.74);
+    align-items: center;
+    font-family: Helvetica;
+    padding: 10px;
+    /* height: 20px; */
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 1px solid #240b0b35;
+    max-width: 400px; /* Adjust as needed */
+    margin: 0 auto; /* Center horizontally */
+    margin-bottom: 5px;
+    border-radius: 10px;
+   background-color: white;
+}
+
+
+.task-item span {
+    cursor: pointer;
+}
+
+
+ul{
+    overflow-y: auto; /* Add this line */
+    max-height: 400px; /* Set your desired max height */
+ }
+
+
+
+
+.task-item .delete-button {
+    background-color: white;
+    color: rgb(36, 18, 18);
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.task-item .delete-button:hover {
+    background-color: white;
+    color: red;
+}
